@@ -18,12 +18,12 @@ public class ArraySubtraction {
     int k = max - 1;
 
     while(i >= 0 || j >= 0){
-        int a = (i >= 0) ? arr1[i] : 0; //if arr1 ends,then take remaining values as 0
-        int b = (j >= 0) ? arr2[j] : 0;//if arr2 ends,then take remaining values as 0
+        int a = (i >= 0) ? arr1[i] : 0; 
+        int b = (j >= 0) ? arr2[j] : 0;
 
         if(a < b){
            
-            int borrowIndex = i - 1; //index from where we our borrowing 
+            int borrowIndex = i - 1; 
             while(borrowIndex >= 0 && arr1[borrowIndex] == 0){
                 arr1[borrowIndex] = 9;
                 borrowIndex--;
@@ -46,9 +46,9 @@ public class ArraySubtraction {
         start++;
     }
 
-    int ans[] = java.util.Arrays.copyOfRange(res, start, res.length); //it  returns new array containing elements from res[start] to res[res.length]
+    int ans[] = java.util.Arrays.copyOfRange(res, start, res.length); 
 
-    //put a negative sign before final result if 1st array is smaller than second
+    
     if(negative){
         System.out.print("-");
     }

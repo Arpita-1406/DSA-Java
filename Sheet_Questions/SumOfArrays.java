@@ -22,3 +22,4 @@ public class SumOfArrays {
             System.out.print(ele+" ");
        }
 }
+}
