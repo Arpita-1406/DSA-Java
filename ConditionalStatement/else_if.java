@@ -1,5 +1,7 @@
 package ConditionalStatement;
-//Used when multiple conditions exist.
+
+// else-if Ladder:-Used when multiple conditions need to be checked.
+
 public class else_if {
     public static void main(String[] args) {
 

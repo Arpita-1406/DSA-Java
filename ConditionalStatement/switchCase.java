@@ -1,5 +1,19 @@
 package ConditionalStatement;
-//switch is used to select one block from many options.
+
+// switch Statement:-Used when there are many possible values for a variable.
+
+// Syntax
+// switch(variable){
+//     case value1:
+         // code
+//         break;
+//     case value2:
+        // code
+//         break;
+//     default:
+         // code
+// }
+
 public class switchCase {
     public static void main(String[] args) {
 

@@ -1,5 +1,17 @@
 import java.util.Scanner;
 
+// Scanner Methods
+
+// Method	          Used For
+// nextInt()	      Integer input
+// nextLong()	      Long input
+// nextFloat()	      Float input
+// nextDouble()	      Double input
+// next()	          Single word String
+// nextLine()	      Full line String
+// next().charAt(0)	  Character input
+// nextBoolean()	  Boolean input
+
 public class Taking_user_input {
     public static void main(String[] args){
 

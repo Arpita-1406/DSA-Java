@@ -1,5 +1,7 @@
 package ConditionalStatement;
-//if inside another if.
+
+// Nested if:-An if statement inside another if.
+
 public class nested-if {
     public static void main(String[]args){
         int age = 20;

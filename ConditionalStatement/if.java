@@ -1,5 +1,10 @@
 package ConditionalStatement;
-//Executes code only if condition is true.
+
+// if Statement:-Executes a block of code only if the condition is true.
+// Syntax:-if(condition){  code }
+
+
+
 public class if {
     public static void main(String[] args) {
 
